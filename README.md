@@ -17,11 +17,10 @@ Trouver un poste en développement web à partir d’**août 2025**, dans une é
 ## 🧰 Projets à découvrir
 
 - `agent-ia-faq-rag` – chatbot avec mémoire + base documentaire
-- 'projets d'apprentissage' développé pendant les cours
+- `projets d'apprentissage` développé pendant les cours
 
 ## 📫 Me contacter
 
-[🌐 julie-lenoir.fr](https://julie-lenoir.fr)  
 [🔗 LinkedIn](https://www.linkedin.com/in/julie-lenoir-renou)  
 📍 Cholet / Angers / Nantes  
 ✉️ julielenoir.devweb@gmail.com
