@@ -1,60 +1,77 @@
-# 🌐 Portfolio Web – Julie Lenoir (Version 1)
+# Portfolio Web — Julie Lenoir (Version refactorisée)
 
-## 🎯 Présentation
+Ce dépôt contient la **version refactorisée et modulaire** de mon portfolio personnel. Le site a été entièrement revu pour être plus maintenable, clair et structuré selon les bonnes pratiques.
 
-Ce site est la **première version de mon portfolio personnel**, développé en HTML, CSS et JavaScript. Il a été conçu pour :
-- présenter mon parcours de développeuse web,
-- donner accès à mon CV au format PDF,
-- proposer une interface claire et responsive,
-- respecter les règles légales via une page de mentions légales.
+---
 
-📄 Mon CV n'est plus disponible en ligne.
+## 🎯 Objectifs
 
+* Présenter mon parcours de développeuse web et mes projets.
+* Proposer un site responsive, accessible et sécurisé.
+* Fournir une base modulaire avec PHP (séparation des responsabilités).
+* Inclure un système de données centralisées (config/data.php).
 
 ---
 
 ## 🛠 Technologies utilisées
 
-- **HTML5** – structure des pages (`index.html`, `mentionsLegales.html`)
-- **CSS3** – styles personnalisés et responsive (`style.css`)
-- **JavaScript vanilla** – animation légère ou interactions (`script.js`)
-- **GitHub Pages** – hébergement du site statique
+* **PHP** – structure modulaire (config, includes, vues)
+* **HTML5** – sémantique des pages
+* **CSS3** – responsive design avec variables et animations
+* **JavaScript Vanilla** – interactions (smooth scroll, animations au scroll)
+* **Font Awesome** – icônes
+* **GitHub** – versioning et hébergement
 
 ---
 
-## 📁 Structure des fichiers
+## 📁 Structure du projet
 
-portfolio-v1/
-├── index.html # Page d'accueil
-├── mentionsLegales.html # Mentions légales obligatoires
-├── style.css # Feuille de style principale
-├── script.js # Script JS de base
-├── images/ # Dossier contenant les visuels
-└── julieLenoir_devWeb_CV_2025.pdf # CV PDF intégré
-
+```
+portfolio/
+├─ public/            # Point d'entrée et fichiers accessibles publiquement
+│  ├─ index.php       # Page principale
+│  ├─ style.css       # Feuille de style
+│  ├─ script.js       # Script JS pour interactions
+│  └─ assets/         # Images, favicon...
+├─ config/            # Configuration et données (backend léger)
+│  ├─ data.php        # Données content-driven
+│  └─ functions.php   # Helpers et sécurité (XSS, badges, etc.)
+├─ includes/          # Fragments de vues (partials)
+│  ├─ header.php      # Head + navigation
+│  ├─ footer.php      # Pied de page
+│  └─ sections/       # Sections principales du site
+│     ├─ hero.php
+│     ├─ competences.php
+│     ├─ projets.php
+│     ├─ experiences.php
+│     └─ contact.php
+└─ README.md          # Documentation du projet
+```
 
 ---
 
-## ▶️ Accès au site
+## ▶️ Déploiement local
 
-Ce portfolio a été déployé avec **GitHub Pages**.
-
-🌍 [Voir le site en ligne](https://julielenoir.github.io/portfolio-v1) *(lien à adapter selon le dépôt final)*
+1. Copier le dossier `portfolio` dans le répertoire racine de ton serveur web (par ex. `/var/www/html/portfolio`).
+2. Vérifier que PHP (>=7.4) est installé et configuré.
+3. Accéder au site via `http://localhost/portfolio/public`.
 
 ---
 
-## 🔒 Remarques
+## 🔒 Bonnes pratiques appliquées
 
-Ce projet représente un **point de départ** dans mon apprentissage du développement front-end. Il a depuis été remplacé par une version plus avancée, mais reste archivé ici à titre de référence.
+* **Sécurité** : échappement systématique des données avec la fonction `e()`.
+* **Modularité** : séparation claire entre données, vues et ressources publiques.
+* **Accessibilité** : balises ARIA, navigation claire.
+* **Performance** : CSS optimisé avec variables, animations légères.
+* **Lisibilité** : code commenté pour un apprentissage facilité.
 
 ---
 
 ## 👩‍💻 Auteure
 
-**Julie Lenoir**  
-Développeuse Web – Formation CDA (CEFii)  
-📫 [julielenoir.devweb@gmail.com](mailto:julielenoir.devweb@gmail.com)  
-🔗 [linkedin.com/in/julie-lenoir-renou](https://linkedin.com/in/julie-lenoir-renou)  
-
-
-
+**Julie Lenoir**
+Développeuse Web & IA – Formation CDA (CEFii)
+📫 [julielenoir.devweb@gmail.com](mailto:julielenoir.devweb@gmail.com)
+🔗 [linkedin.com/in/julie-lenoir-renou](https://linkedin.com/in/julie-lenoir-renou)
+🔗 [github.com/JulieLenoir](https://github.com/JulieLenoir)
