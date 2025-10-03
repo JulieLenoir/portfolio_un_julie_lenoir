@@ -58,16 +58,6 @@ portfolio/
 
 ---
 
-## 🔒 Bonnes pratiques appliquées
-
-* **Sécurité** : échappement systématique des données avec la fonction `e()`.
-* **Modularité** : séparation claire entre données, vues et ressources publiques.
-* **Accessibilité** : balises ARIA, navigation claire.
-* **Performance** : CSS optimisé avec variables, animations légères.
-* **Lisibilité** : code commenté pour un apprentissage facilité.
-
----
-
 ## 👩‍💻 Auteure
 
 **Julie Lenoir**
@@ -75,3 +65,4 @@ Développeuse Web & IA – Formation CDA (CEFii)
 📫 [julielenoir.devweb@gmail.com](mailto:julielenoir.devweb@gmail.com)
 🔗 [linkedin.com/in/julie-lenoir-renou](https://linkedin.com/in/julie-lenoir-renou)
 🔗 [github.com/JulieLenoir](https://github.com/JulieLenoir)
+ mis en ligne sur un serveur mutualisé de hostinger(https://julielenoir.worldlite.fr/)

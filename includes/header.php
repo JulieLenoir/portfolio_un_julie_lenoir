@@ -18,7 +18,7 @@
 <header>
     <nav>
         <div class="nav-container">
-            <div class="logo">JL_DEV</div>
+            <div class="logo"></div>
             <ul class="nav-links" role="navigation" aria-label="Navigation principale">
                 <li><a href="#accueil" class="active">Accueil</a></li>
                 <li><a href="#competences">Compétences</a></li>

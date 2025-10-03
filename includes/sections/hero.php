@@ -17,8 +17,7 @@
             <span class="gradient-text">Développeuse Full Stack</span>
         </h1>
 
-        <!-- Sous-titre -->
-        <div class="subtitle"><?= e($infos['titre']) ?></div>
+
 
         <!-- Description -->
         <p class="description"><?= e($infos['description']) ?></p>

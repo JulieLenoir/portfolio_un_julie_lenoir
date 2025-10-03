@@ -5,14 +5,14 @@
 
 $infos = [
     'nom' => 'Julie LENOIR',
-    'titre' => 'Développeuse Full Stack & IA',
+    'titre' => 'Développeuse Full Stack',
     'email' => 'julielenoir.devweb@gmail.com',
     'telephone' => '06 20 83 54 44',
     'localisation' => 'Cholet, Angers, Nantes',
     'linkedin' => 'https://www.linkedin.com/in/julie-lenoir-renou',
     'github' => 'https://github.com/JulieLenoir',
     'cv' => 'https://drive.google.com/file/d/1EVj8nQYUOo0SBPn3KG49KL94krPdDAtz/view?usp=sharing',
-    'description' => "Développeuse web & web mobile (Bac+3 CDA), spécialisée en PHP, Python et Intelligence Artificielle. Passionnée par l'innovation et l'éco-conception numérique."
+    'description' => "Développeuse web & web mobile (Bac+3 CDA), à l’aise avec le développement en PHP et ouverte aux usages avancés de l’intelligence artificielle. Mon objectif : contribuer dans des équipes qui valorisent l’apprentissage, l’entraide et la montée en compétence.",
 ];
 
 
